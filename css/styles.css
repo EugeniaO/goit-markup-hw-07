@@ -36,22 +36,26 @@ img {
 }
 
 .container {
-  max-width: 428px;
-  /* min-width: 320px; */
-  margin-right: auto;
-  margin-left: auto;
   padding: 0 15px;
+}
+
+@media screen and (min-width: 428px) {
+  .container {
+    width: 428px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    width: 768px;
   }
 }
 
 @media screen and (min-width: 1158px) {
   .container {
-    max-width: 1158px;
+    width: 1158px;
   }
 }
 
